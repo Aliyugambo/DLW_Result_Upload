@@ -28,7 +28,7 @@ const FileUpload = () => {
 
     const handleFileUpload = async () => {
         if (!file) return alert('Please select a file');
-        setIsLoading(true);  // Set loading state
+        
 
         const formData = new FormData();
         formData.append('file', file);
